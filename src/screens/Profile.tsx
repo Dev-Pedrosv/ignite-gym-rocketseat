@@ -21,7 +21,7 @@ import { convertBytesInMegaBytes } from "@utils/convertBytesInMegaBytes";
 
 const PHOTO_SIZE = 33;
 const URL_IMAGE =
-  "https://static.wikia.nocookie.net/naruto-pedia/images/e/ea/Naruto.png/revision/latest?cb=20120407114822&path-prefix=pt-br";
+  "https://sm.ign.com/t/ign_br/screenshot/default/goku_an6e.h720.jpg";
 
 export function Profile() {
   const [photoIsLoading, setPhotoIsLoading] = useState(false);

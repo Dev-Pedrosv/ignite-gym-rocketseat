@@ -4,8 +4,7 @@ import { MaterialIcons } from "@expo/vector-icons";
 import { UserPhoto } from "./UserPhoto";
 
 const URL_IMAGE =
-  "https://static.wikia.nocookie.net/naruto-pedia/images/e/ea/Naruto.png/revision/latest?cb=20120407114822&path-prefix=pt-br";
-
+  "https://sm.ign.com/t/ign_br/screenshot/default/goku_an6e.h720.jpg";
 export function HomeHeader() {
   return (
     <HStack bg="gray.600" pt={16} pb={5} px={8} alignItems="center">
@@ -22,7 +21,7 @@ export function HomeHeader() {
           Olá,
         </Text>
         <Heading color="gray.100" fontSize="md" fontFamily="heading">
-          Naruto
+          Goku
         </Heading>
       </VStack>
 
