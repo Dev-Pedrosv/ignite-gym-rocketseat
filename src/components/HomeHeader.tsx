@@ -3,16 +3,16 @@ import { TouchableOpacity } from "react-native";
 import { MaterialIcons } from "@expo/vector-icons";
 import { UserPhoto } from "./UserPhoto";
 
-export function HomeHeader() {
-  const urlImage =
-    "https://static.wikia.nocookie.net/naruto-pedia/images/e/ea/Naruto.png/revision/latest?cb=20120407114822&path-prefix=pt-br";
+const URL_IMAGE =
+  "https://static.wikia.nocookie.net/naruto-pedia/images/e/ea/Naruto.png/revision/latest?cb=20120407114822&path-prefix=pt-br";
 
+export function HomeHeader() {
   return (
     <HStack bg="gray.600" pt={16} pb={5} px={8} alignItems="center">
       <UserPhoto
         size={16}
         source={{
-          uri: urlImage,
+          uri: URL_IMAGE,
         }}
         alt="Imagem do usuário"
         mr={4}
