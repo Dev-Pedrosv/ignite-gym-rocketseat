@@ -22,7 +22,7 @@ export function HomeHeader() {
           Olá,
         </Text>
         <Heading color="gray.100" fontSize="md">
-          Pedro
+          Naruto
         </Heading>
       </VStack>
 
